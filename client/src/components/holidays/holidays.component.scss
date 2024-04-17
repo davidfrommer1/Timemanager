@@ -1,0 +1,33 @@
+
+h1 {
+  font-weight: lighter;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+.holidays {
+  margin-top: 1rem;
+  min-width: 100%;
+  width: auto;
+  float:left;
+}
+
+.slottitle{
+  width: 20%;
+ }
+.holiday-body{
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+@media (max-width: 991px){
+  .holiday-body{
+    width: 100%;
+  }
+  .holidays{
+    width: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+
+h1 {
+    font-weight: lighter;
+  }
+  
+  form {
+    margin-top: 1rem;
+  }
+  
+  .recordtrips {
+    margin-top: 1rem;
+    min-width: 100%;
+    width: auto;
+    float:left;
+  }
+  
+  table{
+    border-collapse: collapse;
+  }
+
+  td, th {
+    border: 1px solid #999;
+    padding: 0,5rem;
+    text-align: left;
+  }
+
+  span[name='customer'] {
+    flex-grow: 1;
+    margin-left: 0.75rem;
+  }
+
+  span[name='fromdate'] {
+    flex-grow: 1;
+    margin-left: 0.75rem;
+  }
+
+  span[name='todate'] {
+    flex-grow: 1;
+    margin-left: 0.75rem;
+  }
+
+  span[name='hours'] {
+    flex-grow: 1;
+    margin-left: 0.75rem;
+  }
+  .recordtrip-body{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+  }
+  
+  @media (max-width: 991px){
+    .recordtrip-body{
+      width: 100%;
+    }
+    .recordtrips{
+      width: 100%;
+    }
+  }

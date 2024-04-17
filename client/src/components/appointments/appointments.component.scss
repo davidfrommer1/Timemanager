@@ -1,0 +1,49 @@
+
+h1 {
+    font-weight: lighter;
+  }
+  
+  form {
+    margin-top: 1rem;
+  }
+  
+  .appointments {
+    margin-top: 1rem;
+    margin-bottom: 10%;
+    min-width: 50%;
+    min-height: 350px;
+    width: auto;
+    float:left;
+  }
+  .slottitle{
+    width: 20%;
+   }
+  .appointment-body{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 15px;
+  }
+  #btn-archive{
+    margin-left: 15px;
+
+  }
+  .archivebody{
+    margin-left: 15px;
+    margin-right: 35px;
+  }
+  @media (max-width: 991px){
+  
+    .appointment-body{
+      width: 100%;
+    }
+    .appointments{
+      width: 100%;
+      min-height: 50px;
+      margin-left: 15px;
+    }
+    .archivebody{
+      margin-left: 15px;
+      margin-right: -15px;
+    }
+  }

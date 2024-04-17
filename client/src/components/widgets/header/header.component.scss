@@ -1,0 +1,46 @@
+
+.logo::before {
+    color: white;
+    font: normal normal normal 1.25rem/1 'Font Awesome 5 Free';
+    content: '\f017';
+  }
+  
+  .nav-link-appointment{
+    color: white;
+  }
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #50BE77;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
